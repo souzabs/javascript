@@ -1,0 +1,20 @@
+Os scripts inline, de um modo geral, devem sempre ser digitados na parte de baixo
+do 'body' ao fim do código, para que dessa forma o navegador carregue
+primeiro o conteúdo da página para depois carregar o comando.
+
+Mensagens de janela:
+
+<script>
+        window.alert('Minha primeira mensagem')
+        window.confirm('Está gostando de Javascript?')
+        window.prompt('Qual é o seu nome?')
+
+</script>
+
+
+- O comando 'window.alert' tem a função de de exibir um alerta na janela.
+
+- O comando 'window.confirm' tem a função de de exibir uma janela com uma confirmação.
+
+- O comando 'window.prompt' tem a função de de solicitar o usuário a entrada de 
+texto por meio de uma caixa de diálogo.
