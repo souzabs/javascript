@@ -45,7 +45,7 @@ Regras dos identificadores:
 - Não podem ser palavras reservadas(Utilizadas pelo js como comandos. Exemplo: function, var, script.
 
 
-Tips váriaveis:
+Dicas das váriaveis:
 
 - Letras maiúsculas e minúsculas dão resultados diferentes e não são iguais.
 
