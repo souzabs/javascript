@@ -14,7 +14,87 @@ Mensagens de janela:
 
 - O comando 'window.alert' tem a função de de exibir um alerta na janela.
 
-- O comando 'window.confirm' tem a função de de exibir uma janela com uma confirmação.
+- O comando 'window.confirm' tem a função de de exibir uma janela com uma confirmação ou cancelamento.
 
 - O comando 'window.prompt' tem a função de de solicitar o usuário a entrada de 
 texto por meio de uma caixa de diálogo.
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+
+As variáveis podem receber dados e elas tem a função de armazena-los na mémoria, dados esses que podem ser números, letras ou strings. 
+Identificadores são nomes dados as váriaveis e eles possuem regras para as suas atribuições.
+
+// 'var' --> Define uma variável.
+
+string --> É uma cadeia de caracteres(Números, símbolos, letras). //
+
+
+Regras dos identificadores:
+
+- Podem comecar com uma letra, $ ou _(Exemplo: n1, $char, _ant)
+
+- Não podem copmeçar com números.
+
+- É possível usar letras ou números, contanto que não seja no ínicio da váriavel.
+
+- É possível utilizar acentos e símbolos.
+
+- Náo podem conter espaços, utiliza-se o underline para tal.
+
+- Não podem ser palavras reservadas(Utilizadas pelo js como comandos. Exemplo: function, var, script.
+
+
+Tips váriaveis:
+
+- Letras maiúsculas e minúsculas dão resultados diferentes e não são iguais.
+
+- Utilize nomes coerentes para sua váriavel.
+
+
+Data Types:
+
+- number( 45, -3, 0.88, 3,14159265...)
+
+- string('Olá, Mundo', 056.775.884-70, ^%97%$38)
+
+- boolean(true, false)
+
+- null(É um literal em JavaScript que representa um valor nulo ou "vazio")
+
+- undefined(É uma condição na qual uma expressão não contém um valor correto, apesar de ser sintaticamente correta)
+
+- object(É uma entidade independente, com propriedades e tipos)
+
+- function(É um conjunto de instruções que executa uma tarefa ou calcula um valor)
+
+/////////////////////////////////////////////////////////////////////////////////////
+
+Typeof o que é? 
+
+O typeof é uma palavra-chave em JavaScript que retornará o tipo da variável quando você a chama. Você pode usá-la para validar parâmetros de função ou verificar se as variáveis estão definidas. Há outros usos também. O operador typeof é útil porque é uma maneira fácil de verificar o tipo de uma variável em seu código.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
