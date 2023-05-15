@@ -17,3 +17,43 @@ Dicionário:
 
 Concatenar --> Concatenar é uma palavra da programação que significa "colocar junto". Para colocar strings juntas em JavaScript, usamos o operador (+).
 
+//////////////////////////////////////////////////////////////////////////////////////
+
+Conversão de string para número:
+Number.parseInt(n) ---> Utilizar para conversão valores de números inteiros: 12
+Number.parseFloat(n) ---> Utilizar para converão de valores de números reais: 12.5
+
+Lembrando que é possível apenas utilizar o comando 'parseInt(n)', ou 'parseFloat(n)', sem a necessidade de escrever 'Number antes'
+
+
+(number + number) retorna adição
+exemplo:
+<script>
+        var n1 = Number.parseInt(prompt('Digite um número: '))
+        var n2 = Number.parseInt(prompt('Digite outro  número: '))
+        var s = n1 + n2
+        alert('A soma dos valores é ' + s)
+</script>
+
+(string + string) retorna concatenação
+exemplo: 
+var n1 = prompt('Digite um número: ')
+        var n2 = prompt('Digite outro  número: ')
+        var s = n1 + n2
+        alert('A soma dos valores é ' + s)
+
+E digamos que os valores digitados tenham sido 1, na primeira caixa e 1 na segunda caixa, o resultado será o mostrado abaixo.
+
+= 11
+
+
+Destrinchando código:
+
+<script>
+        var n1 = Number.parseInt(prompt('Digite um número: '))
+        var n2 = Number.parseInt(prompt('Digite outro  número: '))
+        var s = n1 + n2
+        alert('A soma dos valores é ' + s)
+</script>
+
+A minha váriavel n1 vai receber o que for escrito no prompt, convertido em número inteiro, assim como a variável n2. Após isso, uma váriavel de nome 's' vai receber n1 + n2(já convertidos em números inteiros) e vai retornar a soma dos dois valores.
