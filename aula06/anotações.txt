@@ -102,3 +102,38 @@ var s = 'Javascript'
 s.length --> Define quantos caracteres a string tem.
 s.toUpperCase() --> Define tudo em letras maiúsculas.
 s.toLowerCase() --> Define tudo em letras minúsculas.
+
+Exemplo:
+
+<script>
+        var nome = prompt('Qual é o seu nome?')
+        document.write(`Olá, ${nome}! Seu nome tem ${nome.length} letras </br>`) 
+        document.write(`Seu nome em maiúsculas é ${nome.toUpperCase()} </br>`)
+        document.write(`Seu nome em letras minúsculas é ${nome.toLowerCase()}`)
+</script>
+
+Resultado: 
+Olá, Breno! Seu nome tem 5 letras
+Seu nome em maiúsculas é BRENO
+Seu nome em letras minúsculas é breno
+
+'document.write', como o próprio nome sugere, tem o intuito de escrever informações em um documento.
+
+A tag </br> do HTML deve ser utilizada para quebra de linha dentro da crase, como é mostrado acima.
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Formatando números:
+var n1 = 1543.5
+n1.toFixed(2) --> Retorna uma string, com o número escrito com um número especificado de casas decimais
+
+Exemplo: 
+var n1 = 1543.5
+> n1.toFixed(2) 
+'1543.50' //Definição de casas decimais
+
+>n1.toFixed(2).replace('.', ',')
+'1543,50' // Substituiu o ponto pela vírgula nas casas decimais.
+
+>n1.toLocaleString('pt-BR', {style: 'currency', currency: 'BRL'})
+'R$ 1543.50' // Converteu o comando em real.
