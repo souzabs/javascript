@@ -17,9 +17,12 @@ Dicionário:
 
 Concatenar --> Concatenar é uma palavra da programação que significa "colocar junto". Para colocar strings juntas em JavaScript, usamos o operador (+).
 
+${} --> Placeholder. É utilizado para indicar ao navegador o texto que deverá aparecer escrito no campo do formulário.
+
 //////////////////////////////////////////////////////////////////////////////////////
 
 Conversão de string para número:
+Number ---> Utilizar  como conversor padrão
 Number.parseInt(n) ---> Utilizar para conversão valores de números inteiros: 12
 Number.parseFloat(n) ---> Utilizar para converão de valores de números reais: 12.5
 
@@ -57,3 +60,45 @@ Destrinchando código:
 </script>
 
 A minha váriavel n1 vai receber o que for escrito no prompt, convertido em número inteiro, assim como a variável n2. Após isso, uma váriavel de nome 's' vai receber n1 + n2(já convertidos em números inteiros) e vai retornar a soma dos dois valores.
+
+
+Conversão de números para string:
+
+String(n)
+.toString()
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Utilização de Template Strings: 
+
+//Método convencional
+var nome = 'Breno '
+var idade = '20 '
+var nota = '7.3 '
+'O aluno ' + nome + ' com ' + idade + ' anos tirou a nota ' + nota
+O aluno Breno com 20 anos tirou a nota 7.3
+
+//Método Template Strings
+var nome = 'Breno '
+var idade = '20 '
+var nota = '7.3 '
+`O aluno ${nome} com ${idade} anos tirou a nota ${nota}`
+O aluno Breno com 20 anos tirou a nota 7.3
+
+Exemplo: 
+ <script>
+        var n1 = Number(prompt('Digite um número: '))
+        var n2 = Number(prompt('Digite outro  número: '))
+        var s = n1 + n2
+        alert(`A soma entre ${n1} e ${n2} é igual a ${s}`)
+</script>
+
+OBS: Sempre utilizar crase quando utilizar o método Template String, como mostrado acima.
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Formatando strings:
+var s = 'Javascript'
+s.length --> Define quantos caracteres a string tem.
+s.toUpperCase() --> Define tudo em letras maiúsculas.
+s.toLowerCase() --> Define tudo em letras minúsculas.
