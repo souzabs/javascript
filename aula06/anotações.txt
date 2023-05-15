@@ -1,0 +1,19 @@
+Destrinchando o código:
+
+<script>
+        var nome = window.prompt('Qual é o seu nome?')
+        window.alert('É um grande prazer te conhecer, '+ nome + '!')
+
+</script>
+
+O código acima se trata de um script inline que está escrito dentro de um HTML. O script tem uma variável(var) que se chama 'nome', essa variável recebe o 'window.prompt', que exibe uma caixa de mensagem e solicita ao usuário seu nome.
+Na linha de baixo, podemos perceber uma janela do tipo 'alert' com a seguinte mensagem: 
+('É um grande prazer te conhecer, '+ nome + '!').
+
+Esse script concatena a mensagem utilizando o símbolo '+', assim exibindo o resultado de boas-vindas com o nome inserido pelo usuário.
+
+
+Dicionário: 
+
+Concatenar --> Concatenar é uma palavra da programação que significa "colocar junto". Para colocar strings juntas em JavaScript, usamos o operador (+).
+
