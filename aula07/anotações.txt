@@ -21,12 +21,16 @@ var d = 10 - a / 2 ---> 6
 var e = 6 * 2 / d ---> 2
 var f = b % e + 4 / e ---> 3
 
-Auto-atribuições:
-var n = 3
-var = n + 4 ---> 7
-var = n - 5 ---> 2
-var = n * 4 ---> 8
-var = n / 2 ---> 4
-var = n**2 ---> 16
-var = n % 5 ---> 1
+Auto-atribuições:          Simplificando:
+var n = 3                  
+var = n + 4 ---> 7         n+= 4 
+var = n - 5 ---> 2         n-= 5
+var = n * 4 ---> 8         n*= 4
+var = n / 2 ---> 4         n/= 2
+var = n**2 ---> 16         n**= 2
+var = n % 5 ---> 1         n%= 5
  
+Incremento:              Simplificando:
+var x = 5
+x = x + 1 --- > 6        x++
+x = x -1 ---> 5          x--
