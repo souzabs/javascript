@@ -1,0 +1,110 @@
+Operadores aritméticos
+
+5 + 2 = 7 ---> Sinal de soma
+5 - 2 = 3 ---> '' '' subtração 
+5 * 2 = 10 ---> '' '' Multiplicação
+5 / 2 = 2.5 ---> '' '' divisão real
+5 % 2 = 1 ---> '' '' divisão inteira(sobra da divisão real)
+5 ** 2 = 25 --> '' '' potenciação
+
+Ordem de precedência dos operadores:
+ | () 
+ | **
+ | * / %
+ | + -
+
+Atribuições Simples:
+var a = 5 + 3 ---> 8
+var b = a % 5 ---> 3
+var c = 5 * b**2 ---> 45
+var d = 10 - a / 2 ---> 6
+var e = 6 * 2 / d ---> 2
+var f = b % e + 4 / e ---> 3
+
+Auto-atribuições:          Simplificando:
+var n = 3                  
+var = n + 4 ---> 7         n+= 4 
+var = n - 5 ---> 2         n-= 5
+var = n * 4 ---> 8         n*= 4
+var = n / 2 ---> 4         n/= 2
+var = n**2 ---> 16         n**= 2
+var = n % 5 ---> 1         n%= 5
+ 
+Incremento:              Simplificando:
+var x = 5
+x = x + 1 --- > 6        x++
+x = x -1 ---> 5          x--
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Operadores relacionais: 
+
+> ---> Maior
+< ---> Menor
+>= ---> Maior ou igual
+<= ---> Menor ou igual
+== ---> Igual 
+!= ---> Diferente
+=== ---> Idêntico(Mesmo tipo e valor)
+
+5 > 2 ---> true
+7 < 4 ---> false
+8 >= 8 ---> true 
+9 <= 7 ---> false
+5 == 5 ---> true
+4 != 4 ---> false
+
+Identidade: 
+5 == 5 ---> true
+5 == '5' ---> true
+5 === '5' ---> false
+5 === 5 ---> true
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+Operadores Lógicos: 
+
+! ---> negação (Eu NÃO quero uma caneta azul)
+&& ---> conjunção (Eu quero uma caneta azul E uma preta)
+|| ---> disjunção (Eu quero uma caneta azul OU uma caneta vermelha)
+
+//Exemplo 1: 
+var a = 5
+var b =  8
+a <= b || b / 2 == 2
+Leitura(a é menor ou igual a b, OU b dividido por 2 é igual a 2)
+Resultado ---> true
+
+//Exemplo 2:
+idade >= 15 && idade <= 17 ---> // A idade está entre 15 e 17?
+estado == 'RJ' || estado == 'SP' ---> // O estado é RJ ou SP?
+salário > 1500 && sexo != 'M' ---> // O salário é acima de 1500 e não é um homem?
+
+OBS: Ordem de execução é sempre !(não), &&(e), ||(ou)
+
+
+Ordem geral de precedência: 
+aritméticos | () , ** , / ...
+relacionais | > , < , >= ...
+! 
+&&
+||
+
+Operador ternário:
+
+?:
+
+É composto por 3 partes, como diz seu nome.
+
+teste (?) true (:) false
+
+Exemplo 1:
+media >= 7 (?) "Aprovado" (:) "Reprovado"
+
+Exemplo 2: 
+var idade = 19
+var r = idade >= 18 ? 'MAIOR' : 'MENOR'
+r
+'MAIOR'
+
+
