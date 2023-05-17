@@ -17,10 +17,14 @@
     <h1>Iniciando estudos em DOM</h1>
     <p>Aqui vai o resultado</p>
     <p>Aprendendo a usar o  <strong>DOM</strong> em Javascript</p>
-    <div>Clique aqui</div>
+    <div id="msg">Clique aqui</div>
     <script> 
-         var p1 = document.getElementsByTagName('p')[1]
-        document.write(p1.innerText)
+
+        /*var p1 = document.getElementsByTagName('p')[1]
+        document.write(p1.innerText)*/
+        
+        var d = window.document.querySelector('div#msg')
+        d.style.background = 'yellow'
     </script>
 </body>
 </html>

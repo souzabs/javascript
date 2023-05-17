@@ -1,0 +1,14 @@
+Seleções com GetElements: 
+
+getElementsByTagName() ---> É um método para nos referenciar aos elementos HTML, este método retorna o(s) elemento(s) com o nome indicado.
+
+getElementById() ---> Seleciona e referencia um id.
+
+getElementsByName() ---> Utiliza-se caso tenha uma propriedade name.
+
+getElementsByClassName() ---> É utilizado para separar elementos por classes. 
+
+querySelector() ---> É um modelo que seleciona quaisquer que sejam os elementos descritos dentro do parênteses.
+
+querySelectorAll() ---> Faz o mesmo esquema do querySelector, porém  para uma lista de elementos.
+
