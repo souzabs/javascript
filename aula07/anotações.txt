@@ -1,3 +1,22 @@
+O que é DOM?
+DOM é um acrônimo para Document Object Model (Modelo de Objetos de Documento) ele representa os objetos de uma página HTML em forma de uma árvore. O DOM é importante pois é através dele que acessamos os elementos dentro de uma página HTML. Em outra palavras, obtemos acesso ao documento HTML através do DOM.
+
+
+Navegando pela árvore DOM:
+
+- parent (pais)
+- siblings (irmãos)
+- childrens (filhos)
+
+
+Localizando um pai (parent) --> Todo nó de elemento possui um pai, exceto o nó do documento. Consequentemente, cada nó de elemento tem uma propriedade chamada parentNode, uma referência para o pai do elemento distinto.
+
+Localizando filhos (childrens) --> Um elemento só pode ter um pai (parent), mas pode ter muitos filhos (childrens). Você pode encontrar todos os filhos de um elemento, usando a propriedade childNodes. Ela é, na verdade, uma lista de nós que contém todos os filhos do elemento, no ordem de origem.
+
+Localizando irmãos (siblings) ---> Assim como podemos navegar para cima e para baixo na árvore DOM, também podemos ir de um lado para o outro, obtendo o próximo nó ou o anterior (ambos no mesmo nível). As propriedades que utilizamos para isso são nextSibling e previousSibling.
+
+//////////////////////////////////////////////////////////////////////////////////////
+
 Seleções com GetElements: 
 
 getElementsByTagName() ---> É um método para nos referenciar aos elementos HTML, este método retorna o(s) elemento(s) com o nome indicado.
