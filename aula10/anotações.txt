@@ -1,0 +1,72 @@
+Eventos DOM: 
+Os eventos DOM são um sinal de que algo ocorreu ou está ocorrendo e podem ser acionados por interações do usuário ou pelo navegador.
+
+Exemplo: 
+eventos de mouse (MouseEvent): mousedown, mouseup, click, dblclick, mousemove, mouseover, mousewheel, mouseout, contextmenu
+
+eventos de toque (TouchEvent): touchstart, touchmove, touchend, touchcancel
+
+eventos de teclado (KeyboardEvent): keydown, keypress, keyup
+
+eventos de formulário: focus, blur, change, submit
+
+eventos de janela: scroll, resize, hashchange, load, unload
+
+
+Função: 
+É um conjunto de linhas em código que só serão executadas quando um evento específico ocorrer.
+
+
+Exemplo de código:
+
+<body>
+    <div id="area" onclick="clicar()">
+       Interaja...
+    </div>
+
+    <script>
+        function clicar() {
+            var a = document.getElementById('area')
+            a.innerHTML = 'Você clicou!'
+        }
+    </script>
+</body>
+
+Leitura do código acima: 
+Quando eu clicar na minha div, eu vou criar um objeto chamado 'a' e ele vai ser uma ligação do objeto 'a' do Javascript  com o elemento de id 'area', e esse objeto vai mudar o conteúdo dele pra 'Você clicou!'.
+
+
+Substituição e limpeza do código --->
+
+Ao invés de poluir seu código com todos estes comandos na dentro da div,  como mostra no exemplo abaixo:
+
+<div id="area" onclick="clicar()" onmouseenter="entrar()" onmouseout="sair()">
+ Interaja...
+</div>
+
+Você pode simplesmente reescrever dentro do seu script um 'addEventListener', com todos os comandos que normalmente você utilizaria dentro da div, assim como mostra abaixo:
+
+<script>
+        var a = document.getElementById('area')    
+        a.addEventListener('click', clicar)         
+        a.addEventListener('mouseenter', entrar)     
+        a.addEventListener('mouseout',  sair)       
+
+        function clicar() {
+            
+            a.innerHTML = 'Você clicou!'
+            a.style.background = 'red'
+        }
+
+        function entrar(){
+            a.innerHTML = 'Você entrou!'
+            a.style.background = 'blue'
+        }
+
+        function sair(){
+            a.innerHTML = 'Você saiu!'
+            a.style.background = 'black'
+        }
+</script>
+
+OBS: A var 'a' na segunda linha do código, estando fora do escopo representa uma váriavel geral, caso ela esteja dentro do escopo de qualquer um dos códigos acima, ela não irá obedecer de maneira global, obedecendo assim apenas aquele código em específico. Apesar de parecer um método mais simples e vantajoso, adicionar a váriavel como geral apresenta alguns problemas técnicos que serão estudados mais pra frente.
