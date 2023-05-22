@@ -1,0 +1,36 @@
+IF ---> Quando usamos if também estamos falando de uma condicional no código. If é utilizado quando queremos que um bloco de comandos seja executado se uma condição específica for verdadeira.
+
+Por exemplo:
+
+if (hour < 18) {
+  greeting = "Good day";
+}
+Neste caso, estamos dizendo que SE a hora do dia for menor do que 18 horas, então o código deve apresentar a mensagem Good day (Bom dia).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ELSE ---> Mas uma combinação comum é dizermos or else, que significa senão. E é aí que entra o JavaScript. Else, em JavaScript, é uma versão reduzida da expressão or else do inglês. Ela é utilizada em conjunto com if quando vamos apresentar o bloco de comando que deve ser executado se a condição original do if não for verdadeira. Take a look:
+
+if (hour < 18) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+Isso significa que SE a hora do dia for menor do que 18 horas, então o código deve apresentar a mensagem Good day (Bom dia). SENÃO, se for maior do que 18 horas, o código deve apresentar a mensagem Good evening (Boa noite).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+ELSE IF ---> Esta é uma expressão apenas do JavaScript, ela não é usada no inglês padrão.
+
+Nós usamos else if quando queremos adicionar uma nova condição para ser testada se a primeira condição (ou seja, o primeiro if do código) não for verdadeira. Take a look:
+
+if (time < 10) {
+  greeting = "Good morning";
+} else if (time < 20) {
+  greeting = "Good day";
+} else {
+  greeting = "Good evening";
+}
+Neste caso, SE a hora for menor do que 10 horas, a saudação deve ser Good morning (Bom dia). Mas SE a hora atual for maior do que 10 horas, porém menor do que 20 horas, então a saudação será Good day (Bom dia). SENÃO, se a hora atual for maior do que 20 horas, a saudação será Good evening (Boa noite).
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
