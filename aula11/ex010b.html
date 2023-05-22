@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrangeiro</title>
+</head>
+<body>
+    <h1>Sistema de nacionalidades </h1>
+    Insira seu país de origem<input type="text" name="nac" id="nac">
+    <input type="button" value="Verificar" onclick='verify()'>
+    <div id="res">
+
+    </div>
+    <script>
+        function verify(){
+        var pais = document.getElementById('nac')
+        var res = document.querySelector('div#res')
+        var vel = String(pais.value)
+        res.innerHTML = `Você nasceu no ${pais.value}!`
+        if(vel == Brasil){
+            res.document.innerHTML = 'Você é Brasileiro!'
+        }
+        else{
+            res.document.innerHTML = 'Você é estrangeiro! '
+        }
+        }
+    </script>
+</body>
+</html>
