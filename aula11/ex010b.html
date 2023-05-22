@@ -14,17 +14,20 @@
 
     </div>
     <script>
+        
         function verify(){
         var pais = document.getElementById('nac')
         var res = document.querySelector('div#res')
-        var vel = String(pais.value)
+        var ctry = String(pais.value)
         res.innerHTML = `Você nasceu no(a) ${pais.value}!`
-        if(vel == 'Brasil'){
+        if(ctry == 'Brasil'){
             res.innerHTML += '<p>Você é <strong>Brasileiro</strong>!</p>'
         }
+
         else{
             res.innerHTML += '<p>Você é <strong>estrangeiro</strong>!</p>'
         }
+        
         }
     </script>
 </body>
