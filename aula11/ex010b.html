@@ -18,12 +18,12 @@
         var pais = document.getElementById('nac')
         var res = document.querySelector('div#res')
         var vel = String(pais.value)
-        res.innerHTML = `Você nasceu no ${pais.value}!`
-        if(vel == Brasil){
-            res.document.innerHTML = 'Você é Brasileiro!'
+        res.innerHTML = `Você nasceu no(a) ${pais.value}!`
+        if(vel == 'Brasil'){
+            res.innerHTML += '<p>Você é <strong>Brasileiro</strong>!</p>'
         }
         else{
-            res.document.innerHTML = 'Você é estrangeiro! '
+            res.innerHTML += '<p>Você é <strong>estrangeiro</strong>!</p>'
         }
         }
     </script>
