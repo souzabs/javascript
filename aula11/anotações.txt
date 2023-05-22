@@ -1,0 +1,7 @@
+Condição: 
+Condição é a estrutura de condição a ser verificada para decidir se as linhas do bloco de código serão executadas ou não.
+Existem dois tipos primários de condição; a simples e a composta.
+
+Condição simples ---> Em JavaScript, a estrutura condicional 'if'(se) permite executar um trecho de código somente se uma determinada condição for verdadeira.
+
+Condição composta ---> É determinado por uma segunda condição de nome 'else'(senão) que executa um comando específico caso a primeira condição 'if', não tenha sido atendida.
