@@ -34,3 +34,10 @@ if (time < 10) {
 Neste caso, SE a hora for menor do que 10 horas, a saudação deve ser Good morning (Bom dia). Mas SE a hora atual for maior do que 10 horas, porém menor do que 20 horas, então a saudação será Good day (Bom dia). SENÃO, se a hora atual for maior do que 20 horas, a saudação será Good evening (Boa noite).
 
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+
+Utiliza-se do código abaixo para captar o horário atual da máquina. Lembrando que pode ser utilizado para captar o ano, hora, segundos, milisegundos e outros. Basta ajustar o termo 'get', na segunda linha.
+
+var agora = new Date()      
+var hora = agora.getHours()
+
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
