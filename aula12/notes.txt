@@ -40,4 +40,55 @@ Utiliza-se do código abaixo para captar o horário atual da máquina. Lembrando
 var agora = new Date()      
 var hora = agora.getHours()
 
-- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - 
+- - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
+
+SWITCH ---> A estrutura condicional switch permite executar um bloco de código diferente de acordo com cada opção especificada. Seu uso é indicado quando os valores a serem analisados nessas condições são pré-definidos. Lembrando que a estrutura 'switch' é muito importante  para teste de dados pontuais(0, 1, 2...) e não deve ser utilizado para intervalos, nesse caso deve-se uitilizar estruturas como 'if', 'else' ou 'else if'.
+
+Exemplo de código: 
+var agora = new Date()
+var diaSem = agora.getDay()
+
+/*
+    0 = Domingo
+    1 = Segunda
+    2 = Terça 
+    3 = Quarta
+    4 = Quinta
+    5 = Sexta
+    6 = Sábado
+*/
+
+switch(diaSem){
+    case 0: 
+      console.log('Domingo')
+    break
+
+    case 1: 
+      console.log('Segunda')
+    break
+
+    case 2: 
+      console.log('Terça')
+    break
+
+    case 3: 
+      console.log('Quarta')
+    break
+
+    case 4: 
+      console.log('Quinta')
+    break
+
+    case 5: 
+      console.log('Sexta')
+    break
+     
+    case 6: 
+      console.log('Sábado')
+    break
+
+    default:
+        console.log('[ERRO] Dia inválido!')
+}
+
+OBS: É de suma importância que haja o 'break' ao final de cada 'case', assim como mostra o código acima. Do contrário, ele irá ler e executar  todos os cógidos, ou ao menos os que não estiverem com o break.
