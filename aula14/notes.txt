@@ -15,4 +15,6 @@ while(c <= 5 ){
 }
 
 
-Extra: Depurar ou realizar Debug de um determinado código é o ato de acompanhar detalhadamente o passo a passo da execução de determinado trecho do código
+Extra: Depurar ou realizar Debug de um determinado código é o ato de acompanhar detalhadamente o passo a passo da execução de determinado trecho do código.
+
+//Lembrar de anotar os termos relacionais
