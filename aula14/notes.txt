@@ -1,0 +1,18 @@
+for ---> A instrução 'for' cria um loop que consiste em três expressões opcionais, dentro de parênteses e separadas por ponto e vírgula, seguidas por uma declaração ou uma sequência de declarações executadas em sequência.
+
+Exemplo: 
+var c = 1
+for( c = 1; c <= 5; c = c +1){
+    console.log(c)
+}
+ 
+ -      -       -          -           -           -         -         -   
+
+var c = 1
+while(c <= 5 ){
+    console.log(c)       //Mesma lógica e váriavel, porém sem utilizar a 
+    c = c+1                estrutura 'for'.
+}
+
+
+Extra: Depurar ou realizar Debug de um determinado código é o ato de acompanhar detalhadamente o passo a passo da execução de determinado trecho do código
