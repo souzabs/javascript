@@ -3,3 +3,28 @@ Váriaveis Compostas:
 Váriaveis simples são aquelas que só conseguem armazenar um valor por vez, geralmente utilizando os comandos'var' ou 'let'.
 
 Já as variáveis compostas, como o próprio nome sugere, são aquelas capazes de armazenar vários valores numa mesma estrutura. Essa sendo conhecida pelo nome de 'array' ou vetores, vetores esses que são compostos por elementos e cada elemento por seu valor e por uma chave de identificação.
+
+.sort() ---> O método sort() permite classificar (ordenar) elementos de um array local em ordem crescente.
+
+.push() ---> O método push() adiciona um ou mais elementos ao final de um array e retorna o novo comprimento desse array.
+
+.length ---> .length (tamanho, em português) é uma propriedade dos arrays em JavaScript que retorna ou define o número de elementos em um determinado array.
+
+Exemplo 1: 
+var num = [5 , 8 , 2 , 3]
+console.log(`Nosso valor é o  ${num}`)
+
+R ---> "Nosso valor é o 5, 8, 2, 3"
+
+
+Exemplo 2: 
+var num = [5 , 8 , 2 , 3]
+console.log(`O vetor tem  ${num.length} posições`)
+R ---> "O vetor tem 5 posições"
+
+
+Exemplo 3: 
+var num = [5 , 8 , 2 , 3]
+console.log(`O primeiro valor do vetor é o  ${num[0]}`)
+R ---> "O primeiro valor do vetor é 5"
+
