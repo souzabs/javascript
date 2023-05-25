@@ -1,0 +1,5 @@
+Váriaveis Compostas: 
+
+Váriaveis simples são aquelas que só conseguem armazenar um valor por vez, geralmente utilizando os comandos'var' ou 'let'.
+
+Já as variáveis compostas, como o próprio nome sugere, são aquelas capazes de armazenar vários valores numa mesma estrutura. Essa sendo conhecida pelo nome de 'array' ou vetores, vetores esses que são compostos por elementos e cada elemento por seu valor e por uma chave de identificação.
