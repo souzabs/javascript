@@ -3,3 +3,20 @@ Funções
 - As funções são ações executadas assim que são chamadas ou em decorrência de algum evento.
 
 - Uma função pode receber parâmetros e retornar um resultado.
+
+Exemplo:
+function parimp(n){
+    if (n%2 == 0){
+        return'par'
+    } else{
+        return 'ímpar'
+    }
+}
+ let res = parimp(223)       
+ console.log(res)
+
+// 'parimp(223)' ---> Chamada
+ 'return par' ---> Retorno 1
+ 'return ímpar' ---> Retorno 2
+ 'if (n%2 == 0)' ---> Ação
+ '(n)' ---> Parâmetro //
