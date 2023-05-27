@@ -23,6 +23,11 @@ img#imagem{
     border-radius: 50%;
 }
 
+div{
+    text-align: center;
+    padding: 8px;
+}
+
 footer{
 color: white;
 font-style: italic;
