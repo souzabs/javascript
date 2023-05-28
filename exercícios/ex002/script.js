@@ -50,7 +50,7 @@ function verificar(){
             img.setAttribute('src', 'imagens/idoso-F.png')
            }
         }
-        res.style.textAling = 'center'
+        res.style.textAlign = 'center'
         res.innerHTML = `Detectamos um(a) ${genero} com ${idade} anos.`
         res.appendChild(img)
     } 
