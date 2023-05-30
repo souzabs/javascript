@@ -13,10 +13,10 @@
        nota1 = parseFloat(nota1)
        var nota2 = prompt('Digite sua segunda nota: ')
        nota2 = parseFloat(nota2)
-       var res = nota1 + nota2 
-       var media = res / 2
+       var res = nota1 + nota2 / 2 
+       //var media = res / 2
        
-       if(media < 5){
+       if(res < 5){
         prompt('Sua média foi abaixo de 5. Reprovado!')
         } else if(nota1 === 0 || nota2 === 0){
             prompt('Você zerou uma das provas! Reprovado.')
