@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicío 2</title>
+</head>
+<body>
+    <h1>EX002</h1>
+     <script>
+       var nota1 = prompt('Digite sua primeira nota: ')
+       nota1 = parseFloat(nota1)
+       var nota2 = prompt('Digite sua segunda nota: ')
+       nota2 = parseFloat(nota2)
+       var res = nota1 + nota2 
+       var media = res / 2
+       
+       if(media < 5){
+        prompt('Sua média foi abaixo de 5. Reprovado!')
+        } else if(nota1 === 0 || nota2 === 0){
+            prompt('Sua média foi abaixo de 5 ou você zerou uma das provas! Reprovado.')
+        }
+       else{
+        prompt('Parabéns, você foi aprovado!')
+       }
+     </script>
+</body>
+</html>
