@@ -1,6 +1,6 @@
 "strict use"
 
-//Operadores em Bitwi        se
+//Operadores em Bitwise
 
 
 /* Operador &:
