@@ -2,7 +2,7 @@
 
 //Exemplo var
 /* As variaveis escritas com var tem escopo global, ou seja, independente de onde ela seja declarada, é possível
-solicita-la em qualquer bloco ou escopo*/
+solicita-la em qualquer bloco ou escopo. */
 
 function test(){
     if(true){
@@ -28,4 +28,8 @@ console.log('Fora da function' + nome)                //E
 
 
 //Exemplo const
-/* */
+/* A variável que não varia. As constantes são um tipo de váriavel que, ao receberem um valor, não podem mais
+ser mudadas ao longo do programa */
+
+const curso = "Javascript" 
+curso = "PHP" //Isso vai gerar um erro devido a propriedade não-váriavel das const.
