@@ -1,6 +1,6 @@
 "strict use"
 
-//Operadores em BitWise
+//Operadores em Bitwi        se
 
 
 /* Operador &:
@@ -30,8 +30,8 @@ das colunas que ele já vai retornar o valor, como mostrado acima.*/
 let n3 = 10 
 let n4 = 11
 
-let res1 = n1 | n2
-console.log(res)
+let res1 = n3 | n4
+console.log(res1)
 
 
 
@@ -47,5 +47,35 @@ como mostrado no exemplo acima. */
 let n5 = 10 
 let n6 = 11
 
-let res2 = n1 ^ n2
-console.log(res)
+let res2 = n5 ^ n6
+console.log(res2)
+
+
+
+/* Operador <<:
+10 em binary code -> 00001010 
+Retorno  --->        00010100
+Esse tipo de operador se chama de deslocamento, nesse caso em específico, 
+seria um deslocamento para esquerda. Esse deslocamento para esquerda, 
+desloca um bit para esquerda. Ele é muito utilizado para dobrar valores.  */
+
+let n7 = 10 
+let res3 = n7 << 1
+
+console.log(res3)//20
+
+
+
+/* Operador >>:
+10 em binary code -> 00001010 
+Retorno  --->        00000101
+Esse tipo de operador se chama de deslocamento, nesse caso em específico, 
+seria um deslocamento para direita. Esse deslocamento para direita
+desloca um bit para o mesmo sentido. Ele é muito utilizado para quebrar valores ao meio,
+reduzir os valores pela metade.  */
+
+
+let n8 = 10 
+let res4 = n8 << 1
+
+console.log(res3)//5
