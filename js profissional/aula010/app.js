@@ -1,6 +1,7 @@
 "strict use"
 
-//Operador ternário
+/* Operador ternário 
+Estrutura básica ---> (Teste lógico ?  se verdadeiro : se falso) */
 
 
 //Metodo padrão com if/else
@@ -14,12 +15,12 @@ if(res1 == 0){
 } 
 
 
-
 //Metodo com operador ternário
 
 let num = 10
 let res = (!(num%2) ? "Par" : "Impar")
 console.log(res)//Par
+
 
 /* Ele é frequentemente utilizado como uma forma de substituição do 
 if/else. Pois o operador ternário realiza a operação na primeira 
