@@ -22,10 +22,14 @@ let valores = [1, 5, 4]
 console.log(soma(...valores))
 
 
-/* Verificar que, ao utilizar o 'objs2.' que está 
+
+/* Verificar que ao utilizar o 'objs2.' que está 
 com espalhamento, ele dá a possibilidade de operar 
-com javascript diversas funções e métodos, diferentemente 
-de quando utilizamos o 'objs1', onde ele é regido por HTML*/
+com javascript diversas funções e métodos, afinal
+ele é um array. Diferentemente  de quando utilizamos 
+o 'objs1', pois ele é um HTML Collection. Dessa forma, 
+é possível aumentar o leque de possibilidades ao trabalhar 
+com esse tipo de estrutura. */
 const objs1 = document.getElementsByTagName("div")
 const objs2 = [...document.getElementsByTagName("div")]
 
@@ -33,6 +37,8 @@ objs2.
 
 console.log(objs1)
 console.log(objs2)
+
+
 
 
 
