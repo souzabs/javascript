@@ -20,3 +20,13 @@ console.log('Fim do programa')
 /* Assim como é possível perceber no método acima, 
 a estrutura de loop definido for é separada em três
 partes. 'for(inicialização ; condição de execução ; controle)'*/
+
+
+//Calculo simples de números pares e ímpares.
+for(let i = 0; i < 10; i++){
+    if(i%2==0){
+        console.log(i + " é par")
+    } else{
+        console.log(i + " é ímpar")
+    }
+}
