@@ -1,6 +1,6 @@
 "strict use"
 
-let colocacao = 1
+let colocacao = 3
 
 switch(colocacao){
     case 1:
