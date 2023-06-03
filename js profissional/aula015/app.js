@@ -8,3 +8,15 @@ repetição, respectivamente.
 
 Loops definidos ---> FOR
 Loops indefinidos ---> While/ Do While */
+
+console.log('Inicio do programa')
+
+for(let i = 0; i < 10; i++){
+    console.log(`CFB Cursos - valor de i: ${i}`)
+}
+
+console.log('Fim do programa')
+ 
+/* Assim como é possível perceber no método acima, 
+a estrutura de loop definido for é separada em três
+partes. 'for(inicialização ; condição de execução ; controle)'*/
