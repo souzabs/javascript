@@ -17,9 +17,10 @@ console.log('Fim do programa') */
 
 for(let i = n; i < max; i++){
     console.log("CFB cursos " + i)
-    if(i % 2 == 0){
-        pares++
+    if(i % 2 != 0){
+       continue
     }
+     pares++
 }
 
 console.log("Quantidade de pares: " + pares)
