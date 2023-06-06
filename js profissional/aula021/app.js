@@ -8,4 +8,4 @@ function canal(){
     return res
 }
 
-console.log(canal())
+console.log(canal()) //---> Chamada da funçãO
