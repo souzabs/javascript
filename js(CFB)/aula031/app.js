@@ -21,3 +21,7 @@ console.log(colecaoHTML)
 colecaoHTML.map((e) => {
   console.log(e)
 })
+
+/* O caso acima se trata da conversão de um HTMLCollection em uma array com 
+o uso do spread(...), o que dá a liberdade de alteração bem maior em comparação
+a anterior. */
